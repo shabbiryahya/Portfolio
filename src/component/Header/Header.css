@@ -1,5 +1,5 @@
 header {
-    height: 110vh;
+    height: 160vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -15,8 +15,8 @@ header {
     height: 30px;
     position: absolute;
     color: skyblue;
-    left: 65%;
-    top: 8%;
+    left: 68%;
+    top: 5.5%;
 }
 
 .cta {
@@ -33,7 +33,8 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 17rem;
+    /* top: 0; */
 }
 
 .me {
@@ -51,7 +52,7 @@ header {
 .scroll_down {
     position: absolute;
     right: -2.3rem;
-    bottom: 5rem;
+    bottom: 19rem;
     transform: rotate(90deg);
     font-weight: 200;
     font-size: 0.9rem;
@@ -109,12 +110,14 @@ header {
     box-shadow: 0.5vmin 0, 2vmin -0.5vmin #6c572c, 2vmin -0.5vmin 0 0.5vmin;
     clip-path: polygon(0% 49%, 150% 48%, 150% 100%, 0% 100%);
 }
+    /*------------------------ Media Queries ----> Medium Devies------------------------- */
 
 @media screen and (max-width: 1024px) {
     header {
         height: 70vh;
     }
 }
+    /*------------------------ Media Queries ----> Small Devies------------------------- */
 
 @media screen and (max-width: 600px) {
     header {
