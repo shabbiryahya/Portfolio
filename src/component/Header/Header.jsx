@@ -3,6 +3,8 @@ import './Header.css';
 import './CTA';
 import CTA from './CTA';
 import me from '../../assests/me.png';
+// import me from '../../assests/mem.png';
+
 import HeaderSocials from './HeaderSocials';
 import { MdVerified } from 'react-icons/md';
 

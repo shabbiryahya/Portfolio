@@ -2,7 +2,9 @@ import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 import { MdEmail } from 'react-icons/md';
-import { FaLinkedin, FaAngellist } from 'react-icons/fa';
+import { FaLinkedin, FaAngellist, FaWhatsapp } from 'react-icons/fa';
+
+import { AiOutlineWhatsApp,AiOutlineLinkedin,AiOutlineMail } from 'react-icons/ai';
 
 const Contact = () => {
   const form = useRef();
@@ -34,11 +36,11 @@ const Contact = () => {
       <div className="container contact_container">
         <div className="contact_options">
           <article className="contact_option">
-            <MdEmail className="contact_option-icon" />
+            <AiOutlineMail className="contact_option-icon" />
             <h4>Email</h4>
-            <h5>jhilick.s@gmail.com</h5>
+            <h5>shabbirkatlariwala</h5>
             <a
-              href="mailto:jhilick.s@gmail.com"
+              href="mailto:shabbirkatlariwala@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -46,11 +48,11 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact_option">
-            <FaLinkedin className="contact_option-icon" />
+            <AiOutlineLinkedin className="contact_option-icon" />
             <h4>LinkedIn</h4>
-            <h5>somdottasarkar</h5>
+            <h5>shabbir-yahya</h5>
             <a
-              href="https://www.linkedin.com/in/somdottasarkar/"
+              href="https://www.linkedin.com/in/shabbir-yahya-079735248/"
               target="_blank"
               rel="noreferrer"
             >
@@ -58,11 +60,11 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact_option">
-            <FaAngellist className="contact_option-icon" />
-            <h4>AngelList</h4>
-            <h5>somdotta-sarkar</h5>
+            <AiOutlineWhatsApp className="contact_option-icon" />
+            <h4>Whatsapp</h4>
+            <h5>+91-9574713452</h5>
             <a
-              href="https://angel.co/u/somdotta-sarkar"
+              href=" https://wa.me/919574713452"
               target="_blank"
               rel="noreferrer"
             >
