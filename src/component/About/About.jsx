@@ -1,6 +1,8 @@
 import React from 'react';
 import './About.css';
-import Me from '../../assests/me-about.jpg';
+// import Me from '../../assests/me-about.jpg';
+import Me from '../../assests/mee.jpeg';
+
 import { FaAward, FaCertificate, FaFolder } from 'react-icons/fa';
 
 function About() {
@@ -19,27 +21,27 @@ function About() {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <small>0 Year(s) Working</small>
             </article>
             <article className="about_card">
               <FaCertificate className="about_icon" />
               <h5>Certificates</h5>
-              <small>7+</small>
+              <small>3+</small>
             </article>
             <article className="about_card">
               <FaFolder className="about_icon" />
               <h5>Projects</h5>
-              <small>40+ projects completed</small>
+              <small>4+ projects completed</small>
             </article>
           </div>
           <p>
             I’m a certified full-stack developer, who enjoys building
-            interactive interfaces with JavaScript, React and Ruby On Rails.
+            interactive interfaces with JavaScript, React and Redux.
             <br />
             <br />
-            I'm also a Mentor and Project Reviewer at Microverse.
-            <br />
-            <br />
+            {/* I'm also a Mentor and Project Reviewer at Microverse. */}
+            {/* <br /> */}
+            {/* <br /> */}
             I'm open to Full-stack(remote/onsite) opportunities with a passion
             of Front-end development. If you like what you see and have a
             project you need coded, don’t hestiate to contact me.

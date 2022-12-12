@@ -3,7 +3,7 @@ import React from 'react';
 import './Navbar.css';
 import { FaHome, FaUser, FaBook } from 'react-icons/fa';
 import { MdContactMail } from 'react-icons/md';
-import { RiServiceLine } from 'react-icons/ri';
+// import { RiServiceLine } from 'react-icons/ri';
 
 import { useState } from 'react';
 
@@ -34,13 +34,13 @@ const Navbar = () => {
         <FaBook />
       </a>
 
-      <a
+      {/* <a
         href="#services"
         onClick={() => setActiveNav('#services')}
         className={activeNav === '#services' ? 'active' : ''}
       >
         <RiServiceLine />
-      </a>
+      </a> */}
       <a
         href="#contact"
         onClick={() => setActiveNav('#contact')}

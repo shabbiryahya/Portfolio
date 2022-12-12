@@ -6,11 +6,11 @@ import js from '../../assests/javascript.png';
 import react from '../../assests/react.png';
 import bs from '../../assests/bootstrap.png';
 import three from '../../assests/threejs.png';
-import node from '../../assests/node.jpg';
-import postgr from '../../assests/postgresql.png';
-import python from '../../assests/python.png';
-import rails from '../../assests/rails.png';
-import ruby from '../../assests/ruby.png';
+// import node from '../../assests/node.jpg';
+// import postgr from '../../assests/postgresql.png';
+// import python from '../../assests/python.png';
+// import rails from '../../assests/rails.png';
+// import ruby from '../../assests/ruby.png';
 
 function Experience() {
   return (
@@ -25,21 +25,21 @@ function Experience() {
               <img src={html} className="experience_details-icon" alt="html" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className="experience_details">
               <img src={css3} className="experience_details-icon" alt="css" />
               <div>
                 <h4>CSS3</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className="experience_details">
               <img src={js} className="experience_details-icon" alt="js" />
               <div>
                 <h4>JAVASCRIPT</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className="experience_details">
@@ -50,30 +50,30 @@ function Experience() {
               />
               <div>
                 <h4>REACT & REDUX</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className="experience_details">
               <img src={bs} className="experience_details-icon" alt="bs" />
               <div>
                 <h4>BOOTSTRAP</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className="experience_details">
               <img
-                src={three}
+                src="https://pbs.twimg.com/profile_images/1244925541448286208/rzylUjaf_400x400.jpg"
                 className="experience_details-icon"
-                alt="threejs"
+                alt="chakraUI"
               />
               <div>
-                <h4>Three.js</h4>
+                <h4>Chakra UI</h4>
                 <small className="text-light">Beginner</small>
               </div>
             </article>
           </div>
         </div>
-        <div className="experience_backend">
+        {/* <div className="experience_backend">
           <h3>Backend Development</h3>
           <div className="experience_content">
             <article className="experience_details">
@@ -124,7 +124,7 @@ function Experience() {
               </div>
             </article>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
