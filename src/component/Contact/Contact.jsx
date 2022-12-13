@@ -1,10 +1,14 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
-import { MdEmail } from 'react-icons/md';
-import { FaLinkedin, FaAngellist, FaWhatsapp } from 'react-icons/fa';
+// import { MdEmail } from 'react-icons/md';
+// import { FaLinkedin, FaAngellist, FaWhatsapp } from 'react-icons/fa';
 
-import { AiOutlineWhatsApp,AiOutlineLinkedin,AiOutlineMail } from 'react-icons/ai';
+import {
+  AiOutlineWhatsApp,
+  AiOutlineLinkedin,
+  AiOutlineMail,
+} from 'react-icons/ai';
 
 const Contact = () => {
   const form = useRef();
@@ -14,10 +18,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_17fat2a',
-        'template_236072h',
+        'service_kbszkub',
+        'template_zh2w04s',
         form.current,
-        'XPPxghOSTh4_8PY6l'
+        'gDk9wIv6C4sjEMqs2'
       )
       .then(
         (result) => {
@@ -65,6 +69,7 @@ const Contact = () => {
             <h5>+91-9574713452</h5>
             <a
               href=" https://wa.me/919574713452"
+              // href="https://api.whatsapp.com/send?phone+919574713452"
               target="_blank"
               rel="noreferrer"
             >

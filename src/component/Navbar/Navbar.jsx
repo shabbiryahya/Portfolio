@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './Navbar.css';
-import { FaHome, FaUser, FaBook } from 'react-icons/fa';
+import { FaHome, FaUser, FaBook, FaProjectDiagram } from 'react-icons/fa';
 import { MdContactMail } from 'react-icons/md';
 // import { RiServiceLine } from 'react-icons/ri';
 
@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav>
       <a
         href="#"
-        onClick={() => setActiveNav('#about')}
+        onClick={() => setActiveNav('#')}
         className={activeNav === '#' ? 'active' : ''}
       >
         <FaHome />
@@ -32,6 +32,14 @@ const Navbar = () => {
         className={activeNav === '#experience' ? 'active' : ''}
       >
         <FaBook />
+      </a>
+
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav('#portfolio')}
+        className={activeNav === '#portfolio' ? 'active' : ''}
+      >
+        <FaProjectDiagram />
       </a>
 
       {/* <a
