@@ -2,7 +2,9 @@ import React from 'react';
 import './Header.css';
 import './CTA';
 import CTA from './CTA';
-import me from '../../assests/me.png';
+// import me from '../../assests/me.png';
+import me from '../../assests/123.png';
+
 // import me from '../../assests/mem.png';
 
 import HeaderSocials from './HeaderSocials';

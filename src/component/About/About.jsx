@@ -1,7 +1,8 @@
 import React from 'react';
 import './About.css';
 // import Me from '../../assests/me-about.jpg';
-import Me from '../../assests/mee.jpeg';
+// import Me from '../../assests/mee.jpeg';
+import Me from '../../assests/456.png';
 
 import { FaAward, FaCertificate, FaFolder } from 'react-icons/fa';
 

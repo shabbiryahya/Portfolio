@@ -5,7 +5,7 @@ import html from '../../assests/html-5.png';
 import js from '../../assests/javascript.png';
 import react from '../../assests/react.png';
 import bs from '../../assests/bootstrap.png';
-import three from '../../assests/threejs.png';
+// import three from '../../assests/threejs.png';
 // import node from '../../assests/node.jpg';
 // import postgr from '../../assests/postgresql.png';
 // import python from '../../assests/python.png';

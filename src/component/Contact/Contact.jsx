@@ -26,6 +26,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          alert('Message Sent to Shabbir');
         },
         (error) => {
           console.log(error.text);
@@ -37,6 +38,7 @@ const Contact = () => {
     <section id="contact">
       <h5>Get in Touch</h5>
       <h2>Contact Me</h2>
+     
       <div className="container contact_container">
         <div className="contact_options">
           <article className="contact_option">

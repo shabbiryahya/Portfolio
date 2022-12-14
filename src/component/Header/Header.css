@@ -13,10 +13,9 @@ header {
 .verified {
     width: 30px;
     height: 30px;
-    position: absolute;
+    /* position: absolute; */
     color: skyblue;
-    left: 65%;
-    top: 5.5%;
+    margin-left: 22rem;
 }
 
 .cta {
