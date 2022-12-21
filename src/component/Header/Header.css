@@ -11,11 +11,13 @@ header {
 }
 
 .verified {
+    margin-top: 1rem;
     width: 30px;
     height: 30px;
     /* position: absolute; */
     color: skyblue;
-    margin-left: 22rem;
+    /* margin-left: 22rem; */
+    /* justify-content: center; */
 }
 
 .cta {
@@ -124,7 +126,17 @@ header {
 
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 140vh;
+    }
+    .verified {
+        width: 25px;
+        height: 25px;
+        color: skyblue;
+        margin: auto;
+        padding-top: 0.6rem;
+    }
+    header h1 {
+        font-size: x-large;
     }
     .header_socials,
     .scroll_down {
