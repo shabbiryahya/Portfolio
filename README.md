@@ -1,6 +1,6 @@
 # Portfolio
 
-I'm open to Full stack opportunities. If you like what you see and have a project you need coded, don’t hestiate to contact me. 
+I'm open to Full stack opportunities. 
 
 
 ## Built With
