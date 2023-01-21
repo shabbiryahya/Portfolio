@@ -11,7 +11,7 @@ const portfolio = [
     id: 1,
     image: 'https://miro.medium.com/max/720/1*YOQ_IezeXsoIuGfHXxByxA.webp',
     title: 'Clone | anthropologie.com | HTML,CSS,JS',
-    github: 'https://github.com/shabbiryahya/Anthropologie_portfolio',
+    github: 'https://github.com/shabbiryahya/Anthropologie-Project',
     demo: 'https://anthropologie-clonee.netlify.app/',
   },
   {
