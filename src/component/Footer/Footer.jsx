@@ -40,24 +40,23 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer_socials">
-        <a href="https://www.linkedin.com/in/shabbir-yahya-079735248//">
+        <a href="https://www.linkedin.com/in/shabbir-yahya-079735248/" target="_blank">
           <FaLinkedin />
         </a>
-        <a href="https://wa.me/919574713452">
+        <a href="https://wa.me/919574713452" target="_blank">
           <FaWhatsapp />
         </a>
-        <a href="https://twitter.com/ifsebyy">
+        <a href="https://twitter.com/ifsebyy" target="_blank">
           <FaTwitter />
         </a>
-        <a href="https://github.com/shabbiryahya">
+        <a href="https://github.com/shabbiryahya" target="_blank">
           <FaGithub />
         </a>
-        <a href="https://medium.com/@shabbirkatlariwala">
+        <a href="https://medium.com/@shabbirkatlariwala" target="_blank">
           <FaMedium />
         </a>
-        <a href="tel:+919574713452">
-          {' '}
-          <BiPhoneCall />{' '}
+        <a href="tel:+919574713452" target="_blank">
+          <BiPhoneCall />
         </a>
       </div>
       <div className="footer_copyright">

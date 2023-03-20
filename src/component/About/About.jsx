@@ -47,7 +47,7 @@ function About() {
             of Front-end development. If you like what you see and have a
             project you need coded, don’t hestiate to contact me.
           </p>
-          <a href="#project" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary">
             {' '}
             Let's Talk
           </a>
